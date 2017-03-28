@@ -1,0 +1,771 @@
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.navbar-inverse{
+  background-color: transparent;
+}
+
+.navbar-toggle{
+    background-color: #000;
+    margin-top: 3px;
+}
+
+.navbar-brand img{
+    margin-top: 2px;
+}
+
+.navbar-nav ul li:hover,
+.navbar-nav ul li:focus,
+.navbar-nav ul li:active{
+    color: #000;
+}
+
+/* social */
+
+.social li a {
+    font-size: 31px;
+    color: #ffffff;
+}
+
+.s-dark li a {
+    font-size: 31px;
+    color: black;
+    bottom: 0px;
+    
+}
+
+.social li a:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.logo-white {
+    margin-top: 17px;
+}
+
+/*******************************/
+
+/* Team */
+
+/*******************************/
+
+.latest-box .media {
+    max-width: 100%;
+    position: relative;
+}
+.latest-box .media .overlay-content ul li {
+    margin: 0px 1px;
+}
+.latest-box .media .overlay-content ul li a {
+    color: #ffffff;
+    font-size: 28px;
+}
+.latest-box .media .overlay-content p {
+    margin-bottom: 5px;
+    line-height: 15px;
+}
+.latest-box .slider-meta {
+    color: #9a9a9a;
+    margin-bottom: 20px;
+}
+
+.box-wrapper {
+    padding: 15px;
+    border: 1px solid #eeeded;
+    background: #f5f5f5;
+}
+.posts .row .box-wrapper {
+    margin-bottom: 60px;
+}
+.box {
+    padding: 0px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(214, 214, 214, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(214, 214, 214, 1);
+    box-shadow: 0px 0px 10px 0px rgba(214, 214, 214, 1);
+}
+
+/*******************************/
+
+/* Heavico HTML Template */
+/* by Themicart */
+
+/*******************************/
+
+    /* CSS STRUCTURE
+
+    1. General styles
+    2. Header
+        2.1. Second level Nav
+        2.2. Header light version
+        2.3. Subnav
+        2.4. Subnav light version
+    3. Sidebar
+    4. Footer
+    5. Home page elements
+        5.1. Slider
+        5.2. Top CTA section
+        5.3. Services section
+        5.4. Feature Boxes
+        5.5. Gallery
+        5.6. Latest News 
+        5.7. Testimonials
+        5.8. CTA footer
+    6. About us page
+    7. Project detail page
+    8. Contact us page
+    9. Blog page
+    10. Shop page
+    11. Elements
+        11.1. Form
+        11.2. Checkbox
+        11.3. Radio buttons
+        11.4. Table
+        11.5. Accordion
+        11.6. Tabs
+        11.7. Mobile menu button
+        11.8. Slick slider
+    12. Media queries
+
+
+/*******************************/
+/* 1. General styles */
+/*******************************/
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+:focus {outline:none;}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .service-item a, .read-more, .read-more-dark {
+    color: #333;
+    text-decoration: none;   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h3, h4, h5, h6 {
+    letter-spacing: 0.3px;
+}
+
+p, li {
+    font-size: 1em;
+    line-height: 1.7em;
+
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 1.15em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.67em;
+}
+
+a {
+    color: #555;
+}
+
+a:hover {
+    color: #333;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.service-item a, .read-more, .read-more-dark {
+    font-weight: 500;
+}
+
+.page-content p:first-child {
+    margin-top: 0;
+}
+
+.page-content img {
+    margin-bottom: 20px;
+}
+
+.page-content .notice-box {
+    margin: 40px 0;
+}
+
+.page-content ul,
+.tab-content ul {
+    padding-left: 20px;
+}
+
+.page-content ul li:before,
+.tab-content ul li:before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    left: -20px;
+    bottom: 2px;
+    width: 7px;
+    height: 7px;
+    background: #fecd0f;
+}
+
+.tab-content ul li:before {
+    background: #999;
+}
+
+.page-content ul li,
+.tab-content ul li {
+    line-height: 2em;
+}
+
+h4.box-heading {
+    font-size: 1em;
+}
+
+.btn-read-more {
+    font-size: .85em;
+}
+
+.btn-read-more {
+    text-decoration: none;
+}
+
+/*******************************/
+/*3. Sidebar */
+/*******************************/
+
+.sidebar-nav {
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.sidebar-heading {
+    font-size: 13px;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 0;
+}
+
+.sidebar-nav ul {
+    font-size: 13px;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav ul li {
+    border: 1px solid #ddd;
+    list-style: none;
+    border-top: none;
+    position: relative;
+}
+
+.hovered {
+    background: #e5e5e5!important;
+    transition: 0.2s;
+    color: #333;
+}
+
+.sidebar-nav ul li a {
+    font-weight: 300;
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #777;
+}
+
+.sidebar-nav ul,
+.sidebar-nav ul ul {
+    margin: 0;
+}
+
+.sidebar-nav ul ul li {
+    padding-left: 20px;
+    font-size: 11px;
+}
+
+.sidebar-nav ul ul li {
+    background-color: #f8f8f8;
+}
+
+.sidebar-expanded li:before {
+    content: '-';
+    position: absolute;
+    top: 12px;
+    color: #ccc;
+}
+
+.sidebar-nav ul ul li {
+    border-right: none;
+    border-left: none;
+}
+
+.sidebar-nav ul ul li:last-child {
+    border-bottom: none;
+}
+
+.sidebar-nav ul ul li:first-child {
+    border-top: 1px solid #ddd;
+}
+
+/*******************************/
+/* 5.3. Services section */
+/*******************************/
+
+.gray-border {
+    width: 100%;
+    border-top: 10px solid #e5e5e5;
+    border-bottom: 10px solid #e5e5e5;
+}
+
+.gray-border-no-top {
+    width: 100%;
+    border-top: none;
+    border-bottom: 10px solid #e5e5e5;
+}
+
+.gray-section {
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.content-box,
+.content-box-dark-bg {
+    border: 7px solid #e5e5e5;
+    transition: 0.1s;
+}
+
+.content-box {
+    position: relative;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.content-box:hover,
+.content-box-dark-bg:hover {
+    border: 7px solid #d9d9d9;
+    background: #fff;
+}
+
+.content-box h4,
+.content-box a,
+.read-more,
+.read-more-dark {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.content-box-info {
+    padding: 25px 20px;
+}
+
+.content-box-info h4 {
+    font-size: 1.1em;
+}
+
+.btn-read-more {
+    position: relative;
+    border-top: 1px solid #d9d9d9;
+    padding: 18px;
+    font-weight: 500;
+    background-color: #f9f9f9;
+    font-size: 12px;
+    transition: 0.1s;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-read-more:hover {
+    color: #333;
+}
+
+.btn-read-more::after {
+    content: "\f105";
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: "FontAwesome";
+    font-size: 15px;
+    color: #999;
+    font-weight: 800;
+    transition: 0.2s;
+
+}
+
+.btn-read-more:hover:after {
+    right: 15px;
+    color: #333;
+}
+
+.read-more-dark::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    margin: 5px 0 0 -15px;
+    background: #fecd0f;
+}
+
+a.read-more,
+a.read-more-dark {
+    float: right;
+    position: relative;
+    font-size: 0.9em;
+    padding: 10px 0 10px 10px;
+    transition: 0.1s;
+}
+
+a.read-more:hover {
+    color: #000;
+}
+
+.btn-read-more:hover {
+    background: #fff;
+}
+
+a.read-more {
+    color: #999;
+}
+
+a.read-more-dark {
+    color: #777; 
+}
+
+a.read-more-dark:hover {
+    color: #ddd;
+}
+
+.read-more::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    margin: 6px 0 0 -15px;
+    background: #fecd0f;
+}
+
+.light {
+    background-color: #ddd;
+    height: 1px;
+}
+
+.dark {
+    background-color: #555;
+    height: 1px;
+}
+
+.content-box-info p {
+    color: #777;
+    font-size: .85em;
+    margin: 10px 0;
+}
+
+.content-box img,
+.content-box-dark-bg img {
+  width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*******************************/
+/* 5.6. Latest News */
+/*******************************/
+
+article {
+    background: #fff;
+    border: 7px solid #ddd;
+    width: 100%;
+    display: inline-block;
+}
+
+.blog-date {
+    position: absolute;
+    margin: 0 0 0 20px;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    width: 50px;
+    font-size: .9em;
+    color: #fff;
+}
+
+.blog-date p span {
+    font-size: 1em;
+}
+
+.read-more-dark a {
+    color: #ddd;
+}
+
+.on-dark {
+    background-color: #fff;
+}
+
+
+/*******************************/
+/* 9. Blog */
+/*******************************/
+
+.blog-post {
+    margin-bottom: 40px;
+}
+
+.blog-post .post-title {
+    margin-bottom: 20px;
+}
+
+.blog-date span {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.blog-date {
+    line-height: 1.5em;
+} 
+
+.post-info {
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: #aaa;
+}
+
+.pagination {
+    margin-top: 60px;
+    border: 1px solid #ddd;
+    width: 100%;
+    background: #ddd;
+}
+
+.post-content .content-box {
+    float: none;
+    margin-bottom: 20px;
+}
+
+.post-content .post-info {
+    margin-top: 10px;
+}
+
+.testimonial .content-box-info p,
+.comment .content-box-info p {
+    margin-top: 0;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.reply {
+    text-transform: uppercase;
+    font-weight: 500!important;
+    font-size: 12px !important;
+    letter-spacing: 1px;
+    transition: 0.15s;
+    color: #999!important;
+}
+
+.reply:hover {
+    color: #000!important;
+}
+
+.comment {
+    margin-bottom: 40px;
+}
+
+.nested {
+    padding-left: 200px;
+}
+
+.nested-2 {
+    padding-left: 360px;
+}
+
+.service {
+    margin-bottom: 40px;
+    float: none;
+}
+
+.job-title {
+    font-size: 0.9em;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member h4 {
+    margin-bottom: 0;
+}
+
+.notice-box {
+    padding: 40px;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+    transition: 0.15s;
+    border: 1px solid #ddd;
+}
+
+.notice {
+    font-weight: 400;
+}
+
+.notice-box h2 {
+    margin-bottom: 20px;
+    line-height: 1.2em;
+}
+
+.notice-box a:hover {
+    text-decoration: none;
+}
+
+.cta-link {
+    display: block;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #999;
+    letter-spacing: 1px;
+}
+
+.cta-link:after {
+    content: "\f105";
+    font-family: "FontAwesome";
+    font-size: 18px;
+    color: #999;
+    font-weight: 800;
+    position: relative;
+    left: 10px;
+    top: 2px;
+    transition: 0.2s;
+}
+
+
+.notice-box:hover > .cta-link:after {
+    left: 15px;
+}
+
+.notice-box:hover,
+.position:hover {
+    -webkit-box-shadow: inset 0px 0px 0px 7px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0px 0px 0px 7px rgba(0,0,0, 0.1);
+    box-shadow: inset 0px 0px 0px 7px rgba(0,0,0,0.1);
+}
+
+.notice-box:hover > h2,
+.notice-box:hover > .cta-link:after,
+.notice-box:hover > .cta-link {
+    color: #000;
+}
+
+
+
+
+
+/*******************************/
+/* 11.4. Table */
+/*******************************/
+
+table {
+    border: 1px solid #d9d9d9;
+    font-size: 0.9em;
+    width: 100%;
+    text-align: left;
+    margin: 30px 0;
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #fff;
+    letter-spacing: 1px;
+}
+
+tr {
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+    transition: 0.07s;
+}
+
+tr:hover {
+    background: #fff;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+.no-top-mrg {
+    margin-top: 0;
+}
+
+
+
