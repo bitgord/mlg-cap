@@ -1,6 +1,8 @@
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
+
+
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 20px;
@@ -24,7 +26,7 @@
 }
 
 .navbar-brand img{
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 .navbar-nav ul li:hover,
@@ -32,6 +34,12 @@
 .navbar-nav ul li:active{
     color: #000;
 }
+
+#navbar-nav-2 {
+    margin-top: 5px;
+}   
+
+
 
 /* social */
 
@@ -53,48 +61,6 @@
 }
 .logo-white {
     margin-top: 17px;
-}
-
-/*******************************/
-
-/* Team */
-
-/*******************************/
-
-.latest-box .media {
-    max-width: 100%;
-    position: relative;
-}
-.latest-box .media .overlay-content ul li {
-    margin: 0px 1px;
-}
-.latest-box .media .overlay-content ul li a {
-    color: #ffffff;
-    font-size: 28px;
-}
-.latest-box .media .overlay-content p {
-    margin-bottom: 5px;
-    line-height: 15px;
-}
-.latest-box .slider-meta {
-    color: #9a9a9a;
-    margin-bottom: 20px;
-}
-
-.box-wrapper {
-    padding: 15px;
-    border: 1px solid #eeeded;
-    background: #f5f5f5;
-}
-.posts .row .box-wrapper {
-    margin-bottom: 60px;
-}
-.box {
-    padding: 0px;
-    background: #ffffff;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(214, 214, 214, 1);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(214, 214, 214, 1);
-    box-shadow: 0px 0px 10px 0px rgba(214, 214, 214, 1);
 }
 
 /*******************************/
